@@ -38,7 +38,7 @@ else
 while read i
 do
 result=$(factors "$i"
-check_factors $results
+check_factors $result
 done < "$1"
 fi
 
