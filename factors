@@ -22,7 +22,7 @@ fi
 num1=$2
 num=$(echo "$1" | tr ':' '=')
 
-results=$(echo "if($num2 > $num1) 1 else 0" | bc)
+result=$(echo "if($num2 > $num1) 1 else 0" | bc)
 if((result == 1)); then
 numcps=$num1
 num1=$num2
