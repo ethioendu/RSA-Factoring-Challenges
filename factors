@@ -15,10 +15,8 @@ then
 num2=$(echo $a*$num2 | bc)
 fi
 count=$((count + 1))
-fi
-count=$((count + 1))
 done
-else 
+else
 num2=$3
 fi
 num1=$2
